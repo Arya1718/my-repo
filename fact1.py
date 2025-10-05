@@ -30,7 +30,6 @@ def factorial(n: int) -> int:
     if n == 0:
         return 1
 
-    # Iterative calculation for positive integers
     result = 1
     for i in range(1, n + 1):
         result *= i
